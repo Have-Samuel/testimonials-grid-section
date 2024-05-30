@@ -47,17 +47,36 @@ body {
     background: url('./images/bg-pattern-quotation.svg') var(--moderate-violet);
     background-position: 90% 0%;
     background-repeat: no-repeat;
-    padding: 1.5rem;
+    background-size: 40% 30%;
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
     border-radius: 10px;
     height: 444px;
 }
 
+.img-des {
+    display: flex;
+    gap: 0.4rem;
+    margin: 0 0 1rem 0;
+}
+
 .radius {
+    width: 20%;
     border-radius: 50%;
     border: 2px solid #be28fa;
 }
 
-.img-des {
-    display: flex;
-    gap: 1rem;
+
+
+.identity h2 {
+    margin-top: 0.5rem;
+    color: var(--white);
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.identity span {
+    margin-top: 0.5rem;
+    color: var(--white);
+    font-size: 0.6rem;
+    font-weight: 300;
 }
