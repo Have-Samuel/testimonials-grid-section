@@ -43,8 +43,21 @@ body {
     padding: 2rem;
 }
 
+.card-1 {
+    background: url('./images/bg-pattern-quotation.svg') var(--moderate-violet);
+    background-position: 90% 0%;
+    background-repeat: no-repeat;
+    padding: 1.5rem;
+    border-radius: 10px;
+    height: 444px;
+}
+
+.radius {
+    border-radius: 50%;
+    border: 2px solid #be28fa;
+}
+
 .img-des {
     display: flex;
-    justify-content:center;
-    align-items: flex-start;
+    gap: 1rem;
 }
