@@ -5,18 +5,20 @@
 /* Primary */
 
 :root {
-  --moderate-violet: hsl(263, 55%, 52%);
+  --moderate-violet: #7541c8;
   --very-dark-grayish-blue: hsl(217, 19%, 35%);
   --very-dark-blackish-blue: hsl(219, 29%, 14%);
   --white: hsl(0, 0%, 100%);
+  --lihgt-grey: hsl(0, 0%, 81%);
 }
 
 /* Neutral */
 
-:root {
+/* :root {
     --ligt-gray: hsl(00%, 81%);
-    --light-grayish-blue: hsl(210, 46%, 95%)
-}
+    --light-grayish-blue: hsl(210, 46%, 95%);
+    width: 375px;
+} */
 
 /* Note for text colors: */
 
@@ -27,12 +29,22 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--very-dark-grayish-blue);
+    font-family: 'Barlow Semi Condensed', sans-serif; */
 }
 
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     background-color: var(--light-grayish-blue);
     color: var(--very-dark-grayish-blue);
+    width: 375px;
+    --ligt-gray: hsl(00%, 81%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+    margin: 0 auto;
+
 }
 
 .container {
@@ -41,4 +53,56 @@ body {
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    width: 375px;
+}
+
+.card-1 {
+    background: url('./images/bg-pattern-quotation.svg') var(--moderate-violet);
+    background-position: 90% 0%;
+    background-repeat: no-repeat;
+    background-size: 34% 23.3%;
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+    border-radius: 10px;
+    height: 444px;
+}
+
+.img-des {
+    display: flex;
+    gap: 0.4rem;
+    margin: 0 0 0.4rem 0;
+}
+
+.radius {
+    width: 20%;
+    border-radius: 50%;
+    border: 2px solid #be28fa;
+}
+
+.identity h2 {
+    margin-top: 0.5rem;
+    color: var(--white);
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.identity span {
+    margin-top: 0.5rem;
+    color: var(--white);
+    font-size: 0.6rem;
+    font-weight: 300;
+}
+
+.para-1 {
+    width: 263px;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.para-2 {
+    width: 263px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--white);
+    color: #CFCFCF;
 }
