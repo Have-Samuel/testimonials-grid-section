@@ -13,10 +13,11 @@
 
 /* Neutral */
 
-:root {
+/* :root {
     --ligt-gray: hsl(00%, 81%);
-    --light-grayish-blue: hsl(210, 46%, 95%)
-}
+    --light-grayish-blue: hsl(210, 46%, 95%);
+    width: 375px;
+} */
 
 /* Note for text colors: */
 
@@ -27,12 +28,22 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--very-dark-grayish-blue);
+    font-family: 'Barlow Semi Condensed', sans-serif; */
 }
 
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     background-color: var(--light-grayish-blue);
     color: var(--very-dark-grayish-blue);
+    width: 375px;
+    --ligt-gray: hsl(00%, 81%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+    margin: 0 auto;
+
 }
 
 .container {
@@ -41,13 +52,14 @@ body {
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    width: 375px;
 }
 
 .card-1 {
     background: url('./images/bg-pattern-quotation.svg') var(--moderate-violet);
     background-position: 90% 0%;
     background-repeat: no-repeat;
-    background-size: 40% 25%;
+    background-size: 34% 23.3%;
     padding: 1rem 1.5rem 1.5rem 1.5rem;
     border-radius: 10px;
     height: 444px;
@@ -56,7 +68,7 @@ body {
 .img-des {
     display: flex;
     gap: 0.4rem;
-    margin: 0 0 1rem 0;
+    margin: 0 0 0.4rem 0;
 }
 
 .radius {
