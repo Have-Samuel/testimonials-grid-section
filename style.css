@@ -335,14 +335,19 @@ body {
         width: 668px;
     }
 
-    .radius {
+    .identity h2 {
+        font-size: 1.5rem;
+    }
 
+    .identity span {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: var(--light-grayish-blue);
     }
 
     .para-0 {
         width: 261px;
         margin-top: 1rem;
-        /* margin-left: -3rem; */
     }
 
     .para-2 {
@@ -350,19 +355,41 @@ body {
         margin-top: 0;
         padding-bottom: 2rem;
         font-weight: 500;
-        /* font-size: 0.9rem; */
     }
 
     .card-2 {
-        height: 444px;
+        height: 250px;
+        width: 668px;
+    }
+
+    .identity-2 h2 {
+        font-size: 1.5rem;
+    }
+
+    .identity-2 span {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: var(--light-blackish-blue);
+    }
+
+    .img-des-2 {
+        display: flex;
+        gap: 1rem;
+        margin: 0 0 -0.7rem 1.1rem;
+        align-items: center;
     }
 
     .para-3 {
-        width: 269px;
+        width: 289px;
+        margin-top: 2rem;
+        font-size: 1.5rem;
     }
 
     .para-4 {
-        width: 269px;
+        width: 270px;
+        margin-top: -1rem;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
     }
 
     .card-3 {
