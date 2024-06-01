@@ -449,14 +449,33 @@ body {
     }
 
     .card-5 {
-        height: 222px;
+        height: 350px;
+        width: 668px;
     }
+
+    .identity-5 h2 {
+        font-size: 1.5rem;
+    }
+
+    .identity-5 span {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: var(--very-dark-grayish-blue);
+    }
+    
 
     .para-9 {
         width: 269px;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        margin-left: 1.6rem;
     }
 
     .para-10 {
-        width: 269px;
+        width: 369px;
+        font-size: 0.9rem;
+        margin-top: -0.5rem;
+        font-weight: 700;
+
     }
 }
