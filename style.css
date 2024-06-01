@@ -38,7 +38,7 @@
 
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
-    background-color: var(--light-grayish-blue);
+    /* background-color: var(--light-grayish-blue); */
     color: var(--very-dark-grayish-blue);
     width: 375px;
     --ligt-gray: hsl(00%, 81%);
@@ -57,6 +57,7 @@ body {
     border: 1px solid red;
     height: 100hv;
     gap: 1.5rem;
+    background-color: var(--light-grayish-blue);
 }
 
 .card-1 {
@@ -67,6 +68,7 @@ body {
     padding: 1rem 1.5rem 1.5rem 1.5rem;
     border-radius: 10px;
     height: 444px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .img-des {
@@ -115,6 +117,7 @@ body {
     background-color: var(--very-dark-blackish-blue);
     padding: 1rem 1.5rem 1.5rem 1.5rem;
     border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .img-des-2 {
@@ -161,6 +164,7 @@ body {
     padding: 1rem 1.5rem 1.5rem 1.5rem;
     border-radius: 10px;
     /* height: 222px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .img-des-3 {
@@ -206,6 +210,7 @@ body {
     background-color: var(--very-dark-blackish-blue);
     padding: 1rem 1.5rem 1.5rem 1.5rem;
     border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .img-des-4 {
@@ -253,6 +258,7 @@ body {
     background-color: var(--white);
     padding: 1rem 1.5rem 1.5rem 1.5rem;
     border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .img-des-5 {
