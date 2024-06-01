@@ -54,7 +54,6 @@ body {
     justify-content: center;
     padding: 2rem;
     width: 375px;
-    border: 1px solid red;
     height: 100hv;
     gap: 1.5rem;
     background-color: var(--light-grayish-blue);
