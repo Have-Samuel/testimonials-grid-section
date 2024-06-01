@@ -301,3 +301,181 @@ body {
     color: var(--very-dark-grayish-blue);
 }
 
+/* Media Queries */
+
+@media (min-width: 376px) {
+    body {
+        width: 768px;
+    }
+
+    .container {
+        display: flex;
+        width: 768px;
+    }
+    
+    .paragraph {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-bottom: 2rem;
+    }
+
+    .img-des {
+        display: flex;
+        gap: 0.4rem;
+        margin: 0 0 -0.7rem 1.1rem;
+        align-items: center;
+    }
+
+    .card-1 {
+        background-position: 90% 0%;
+        background-repeat: no-repeat;
+        background-size: 25% 42%;
+        height: 304px;
+        width: 668px;
+    }
+
+    .identity h2 {
+        font-size: 1.5rem;
+    }
+
+    .identity span {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: var(--light-grayish-blue);
+    }
+
+    .para-0 {
+        width: 261px;
+        margin-top: 1rem;
+    }
+
+    .para-2 {
+        width: 314px;
+        margin-top: 0;
+        padding-bottom: 2rem;
+        font-weight: 500;
+    }
+
+    .card-2 {
+        height: 250px;
+        width: 668px;
+    }
+
+    .identity-2 h2 {
+        font-size: 1.5rem;
+    }
+
+    .identity-2 span {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: var(--light-blackish-blue);
+    }
+
+    .img-des-2 {
+        display: flex;
+        gap: 1rem;
+        margin: 0 0 -0.7rem 1.1rem;
+        align-items: center;
+    }
+
+    .para-3 {
+        width: 289px;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .para-4 {
+        width: 270px;
+        margin-top: -1rem;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .card-3 {
+        height: 250px;
+        width: 668px;
+    }
+
+    .identity-3 h2 {
+        font-size: 1.5rem;
+    }
+
+    .identity-3 span {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: var(--very-dark-grayish-blue);
+    }
+
+    .para-5 {
+        width: 289px;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .para-6 {
+        width: 270px;
+        margin-top: -1rem;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .card-4 {
+        height: 350px;
+        width: 668px;
+    }
+
+    .identity-4 h2 {
+        font-size: 1.5rem;
+    }
+
+    .identity-4 span {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: var(--very-dark-grayish-blue);
+    }
+
+    .para-7 {
+        width: 269px;
+        margin-top: 1.5rem;
+        font-size: 1.5rem;
+    }
+
+    .para-8 {
+        width: 270px;
+        margin-top: -1rem;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .card-5 {
+        height: 350px;
+        width: 668px;
+    }
+
+    .identity-5 h2 {
+        font-size: 1.5rem;
+    }
+
+    .identity-5 span {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: var(--very-dark-grayish-blue);
+    }
+    
+
+    .para-9 {
+        width: 269px;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        margin-left: 1.6rem;
+    }
+
+    .para-10 {
+        width: 369px;
+        font-size: 0.9rem;
+        margin-top: -0.5rem;
+        font-weight: 700;
+
+    }
+}
