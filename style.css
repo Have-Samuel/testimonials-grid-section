@@ -408,7 +408,6 @@ body {
     }
 
     .para-5 {
-        width: 269px;
         width: 289px;
         margin-top: 1rem;
         font-size: 1.5rem;
@@ -422,16 +421,31 @@ body {
     }
 
     .card-4 {
-        height: 304px;
+        height: 350px;
         width: 668px;
+    }
+
+    .identity-4 h2 {
+        font-size: 1.5rem;
+    }
+
+    .identity-4 span {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: var(--very-dark-grayish-blue);
     }
 
     .para-7 {
         width: 269px;
+        margin-top: 1.5rem;
+        font-size: 1.5rem;
     }
 
     .para-8 {
-        width: 262px;
+        width: 270px;
+        margin-top: -1rem;
+        font-size: 1.1rem;
+        font-weight: 700;
     }
 
     .card-5 {
