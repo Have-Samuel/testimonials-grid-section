@@ -54,13 +54,15 @@ body {
     justify-content: center;
     padding: 2rem;
     width: 375px;
+    border: 1px solid red;
+    height: 100hv;
 }
 
 .card-1 {
     background: url('./images/bg-pattern-quotation.svg') var(--moderate-violet);
     background-position: 90% 0%;
     background-repeat: no-repeat;
-    background-size: 34% 23.3%;
+    background-size: 36% 26.1%;
     padding: 1rem 1.5rem 1.5rem 1.5rem;
     border-radius: 10px;
     height: 444px;
@@ -75,7 +77,7 @@ body {
 .radius {
     width: 20%;
     border-radius: 50%;
-    border: 2px solid #be28fa;
+    border: 2px solid #9845b9;
 }
 
 .identity h2 {
@@ -93,16 +95,17 @@ body {
 }
 
 .para-1 {
-    width: 263px;
-    font-size: 1.15rem;
+    width: 261px;
+    font-size: 1.2rem;
     font-weight: 700;
     color: var(--white);
+    margin-top: 1rem;
 }
 
 .para-2 {
-    width: 263px;
-    font-size: 1rem;
-    font-weight: 400;
-    color: var(--white);
-    color: #CFCFCF;
+    width: 269px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: var(--lihgt-grey);
+    margin-top: 2rem;
 }
