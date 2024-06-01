@@ -152,6 +152,53 @@ body {
 .para-4 {
     margin-top: 0.5rem;
     font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--very-dark-grayish-blue);
+}
+
+.card-3 {
+    background-color: var(--white);
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+    border-radius: 10px;
+    /* height: 222px; */
+}
+
+.img-des-3 {
+    display: flex;
+    gap: 1rem;
+    margin: 0 0 0.4rem 0;
+}
+
+.radius-3 {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.identity-3 h2 {
+    margin-top: 0.5rem;
+    color: var(--very-dark-grayish-blue);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.identity-3 span {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
     font-weight: 400;
     color: var(--very-dark-grayish-blue);
 }
+
+.para-5 {
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--very-dark-grayish-blue);
+}
+
+.para-6 {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--very-dark-grayish-blue);
+}
+
