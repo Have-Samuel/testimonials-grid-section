@@ -301,3 +301,75 @@ body {
     color: var(--very-dark-grayish-blue);
 }
 
+/* Media Queries */
+
+@media (min-width: 376px) {
+    body {
+        width: 768px;
+    }
+
+    .container {
+        width: 768px;
+    }
+
+    .card-1 {
+        height: 444px;
+        width: 768px;
+    }
+
+    .para-0 {
+        width: 261px;
+    }
+
+    .para-2 {
+        width: 269px;
+    }
+
+    .card-2 {
+        height: 444px;
+    }
+
+    .para-3 {
+        width: 269px;
+    }
+
+    .para-4 {
+        width: 269px;
+    }
+
+    .card-3 {
+        height: 222px;
+    }
+
+    .para-5 {
+        width: 269px;
+    }
+
+    .para-6 {
+        width: 269px;
+    }
+
+    .card-4 {
+        height: 222px;
+    }
+
+    .para-7 {
+        width: 269px;
+    }
+
+    .para-8 {
+        width: 262px;
+    }
+
+    .card-5 {
+        height: 222px;
+    }
+
+    .para-9 {
+        width: 269px;
+    }
+
+    .para-10 {
+        width: 269px;
+    }
+}
