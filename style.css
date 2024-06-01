@@ -95,7 +95,7 @@ body {
     font-weight: 300;
 }
 
-.para-1 {
+.para-0 {
     width: 261px;
     font-size: 1.2rem;
     font-weight: 700;
@@ -142,16 +142,16 @@ body {
     color: var(--very-dark-grayish-blue);
 }
 
-.identity-2 p {
+.para-3 {
     margin-top: 0.5rem;
-    font-size: 0.9rem;
-    font-weight: 300;
+    font-size: 1.3rem;
+    font-weight: 600;
     color: var(--white);
 }
 
-.identity-2 p {
+.para-4 {
     margin-top: 0.5rem;
-    font-size: 0.9rem;
-    font-weight: 300;
-    color: var(--white);
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--very-dark-grayish-blue);
 }
