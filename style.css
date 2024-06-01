@@ -309,20 +309,48 @@ body {
     }
 
     .container {
+        display: flex;
         width: 768px;
+    }
+    
+    .paragraph {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-bottom: 2rem;
+    }
+
+    .img-des {
+        display: flex;
+        gap: 0.4rem;
+        margin: 0 0 -0.7rem 1.1rem;
+        align-items: center;
     }
 
     .card-1 {
-        height: 444px;
-        width: 768px;
+        background-position: 90% 0%;
+        background-repeat: no-repeat;
+        background-size: 25% 42%;
+        height: 304px;
+        width: 668px;
+    }
+
+    .radius {
+
     }
 
     .para-0 {
         width: 261px;
+        margin-top: 1rem;
+        /* margin-left: -3rem; */
     }
 
     .para-2 {
-        width: 269px;
+        width: 314px;
+        margin-top: 0;
+        padding-bottom: 2rem;
+        font-weight: 500;
+        /* font-size: 0.9rem; */
     }
 
     .card-2 {
