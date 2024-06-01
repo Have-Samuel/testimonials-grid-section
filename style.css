@@ -393,19 +393,37 @@ body {
     }
 
     .card-3 {
-        height: 222px;
+        height: 250px;
+        width: 668px;
+    }
+
+    .identity-3 h2 {
+        font-size: 1.5rem;
+    }
+
+    .identity-3 span {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: var(--very-dark-grayish-blue);
     }
 
     .para-5 {
         width: 269px;
+        width: 289px;
+        margin-top: 1rem;
+        font-size: 1.5rem;
     }
 
     .para-6 {
-        width: 269px;
+        width: 270px;
+        margin-top: -1rem;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
     }
 
     .card-4 {
-        height: 222px;
+        height: 304px;
+        width: 668px;
     }
 
     .para-7 {
