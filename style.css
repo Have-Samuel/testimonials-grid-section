@@ -497,9 +497,9 @@ body {
         .card-1 {
             background-position: 85% 0%;
             background-repeat: no-repeat;
-            background-size: 25% 39.5%;
+            background-size: 20% 39.5%;
             height: 352px;
-            width: 740px;
+            width: 750px;
             position: absolute;
             top: 10rem;
             left: 10rem;
@@ -536,10 +536,10 @@ body {
         }
 
         .para-0 {
-            width: 605px;
+            width: 655px;
             margin-top: 1rem;
             font-size: 1.7rem;
-            margin-left: 1.5rem;
+            margin-left: 1.2rem;
             font-weight: 700;
             margin-top: 2.5rem;
         }
@@ -549,7 +549,7 @@ body {
             margin-top: 0;
             padding-top: 0.5rem;
             font-weight: 500;
-            margin-left: 1.5rem;
+            margin-left: 1.2rem;
         }
 
         .card-2 {
