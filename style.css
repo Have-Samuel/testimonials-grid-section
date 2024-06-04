@@ -497,7 +497,7 @@ body {
         .card-1 {
             background-position: 85% 0%;
             background-repeat: no-repeat;
-            background-size: 25% 55%;
+            background-size: 25% 39.5%;
             height: 352px;
             width: 740px;
             position: absolute;
@@ -520,12 +520,17 @@ body {
             align-items: center;
         }
 
+        .img-des .radius-1 {
+            width: 6%;
+            border: 2px solid #e467c9;
+        }
+
         .identity h2 {
-            font-size: 1.5rem;
+            font-size: 1rem;
         }
 
         .identity span {
-            font-size: 1.2rem;
+            font-size: 0.8rem;
             font-weight: 400;
             color: var(--light-grayish-blue);
         }
@@ -536,13 +541,15 @@ body {
             font-size: 1.7rem;
             margin-left: 1.5rem;
             font-weight: 700;
+            margin-top: 2.5rem;
         }
 
         .para-2 {
-            width: 314px;
+            width: 535px;
             margin-top: 0;
-            padding-bottom: 2rem;
+            padding-top: 0.5rem;
             font-weight: 500;
+            margin-left: 1.5rem;
         }
 
         .card-2 {
