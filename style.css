@@ -545,10 +545,11 @@ body {
         }
 
         .para-2 {
-            width: 478px;
+            align-items: center;
+            width: 508px;
             padding-top: 0.5rem;
             font-weight: 400;
-            /* margin-left: 1rem; */
+            margin: 1rem 1rem 1rem 0;
         }
 
         .card-2 {
