@@ -76,8 +76,8 @@ body {
     margin: 0 0 0.4rem 0;
 }
 
-.radius {
-    width: 20%;
+.img-des .radius-1 {
+    width: 10%;
     border-radius: 50%;
     border: 2px solid #9845b9;
 }
@@ -127,8 +127,8 @@ body {
     margin: 0 0 0.4rem 0;
 }
 
-.radius-2 {
-    width: 20%;
+.img-des-2 .radius-2 {
+    width: 10%;
     border-radius: 50%;
 }
 
@@ -175,7 +175,7 @@ body {
 }
 
 .radius-3 {
-    width: 20%;
+    width: 10%;
     border-radius: 50%;
 }
 
@@ -221,7 +221,7 @@ body {
 }
 
 .radius-4 {
-    width: 20%;
+    width: 10%;
     border-radius: 50%;
 }
 
@@ -269,7 +269,7 @@ body {
 }
 
 .radius-5 {
-    width: 20%;
+    width: 10%;
     border-radius: 50%;
 }
 
@@ -478,36 +478,38 @@ body {
         font-weight: 700;
     }
 
-    /* Media Queries*/
+    /* Media Queries 2 */
 
-    @media (min-width: 1650px) {
+    @media (min-width: 1400px) {
         body {
-            width: 1650px;
+            width: 1400px;
             margin: 0 auto;
         }
 
         .container {
             display: flex;
-            width: 1650px;
+            width: 1400px;
             margin: 0 auto;
             position: relative;
+            border: 1px solid red;
         }
         
         .card-1 {
-            background-position: 90% 0%;
+            background-position: 85% 0%;
             background-repeat: no-repeat;
-            background-size: 25% 42%;
-            height: 304px;
+            background-size: 20% 40%;
+            height: 282px;
             width: 540px;
             position: absolute;
             top: 10rem;
             left: 10rem;
+            border: 5px solid red;
         }
 
         .paragraph {
             display: flex;
+            flex-direction: column;
             justify-content: space-around;
-            flex-direction: row;
             margin-bottom: 2rem;
         }
 
@@ -518,34 +520,45 @@ body {
             align-items: center;
         }
 
+        .img-des .radius-1 {
+            width: 6%;
+            border: 2px solid #e467c9;
+        }
+
         .identity h2 {
-            font-size: 1.5rem;
+            font-size: 1rem;
         }
 
         .identity span {
-            font-size: 1.2rem;
+            font-size: 0.8rem;
             font-weight: 400;
             color: var(--light-grayish-blue);
         }
 
         .para-0 {
-            width: 261px;
+            width: 476px;
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            /* margin-left: 1.2rem; */
+            font-weight: 700;
             margin-top: 1rem;
         }
 
         .para-2 {
-            width: 314px;
-            margin-top: 0;
-            padding-bottom: 2rem;
-            font-weight: 500;
+            align-items: center;
+            width: 508px;
+            padding-top: 0.5rem;
+            font-weight: 400;
+            margin: 1rem 1rem 1rem 0;
         }
 
         .card-2 {
-            height: 250px;
-            width: 282px;
+            height: 352px;
+            width: 322px;
             position: absolute;
             top: 10rem;
-            right: 33rem;
+            right: 10rem;
+            border: 5px solid yellow;
         }
 
         .identity-2 h2 {
@@ -578,12 +591,13 @@ body {
             margin-bottom: 2rem;
         }
 
-        .card-3 {
+        /* .card-3 {
             height: 572px;
             width: 255px;
             position: absolute;
             top: 10rem;
             right: 10rem;
+            border: 5px solid violet;
         }
 
         .identity-3 h2 {
@@ -615,6 +629,7 @@ body {
             position: absolute;
             top: 20rem;
             left: 30rem;
+            border: 5px solid magenta;
         }
 
         .identity-4 h2 {
@@ -646,6 +661,7 @@ body {
             position: absolute;
             top: 30rem;
             left: 10rem;
+            border: 5px solid maroon;
         }
 
         .identity-5 h2 {
@@ -670,7 +686,7 @@ body {
             font-size: 0.9rem;
             margin-top: -0.5rem;
             font-weight: 700;
-        }
+        } */
     }
 }
 
