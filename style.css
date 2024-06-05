@@ -519,8 +519,8 @@ body {
             /* align-items: center; */
         }
 
-        .img-des .radius-1 {
-            width: 6%;
+        .radius-1 {
+            width: 10%;
             border: 2px solid #e467c9;
         }
         
@@ -585,6 +585,7 @@ body {
 
         .radius-2 {
             width: 25%;
+            border: 2px solid #e467c9;
         }
 
         /* .paragraph {
