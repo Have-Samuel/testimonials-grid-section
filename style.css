@@ -324,7 +324,7 @@ body {
         display: flex;
         gap: 0.4rem;
         margin: 0 0 -0.7rem 1.1rem;
-        align-items: center;
+        /* align-items: center; */
     }
 
     .card-1 {
@@ -376,7 +376,7 @@ body {
         display: flex;
         gap: 1rem;
         margin: 0 0 -0.7rem 1.1rem;
-        align-items: center;
+        /* align-items: center; */
     }
 
     .para-3 {
@@ -516,7 +516,7 @@ body {
             display: flex;
             gap: 0.4rem;
             margin: 0 0 -0.7rem 0rem;
-            align-items: center;
+            /* align-items: center; */
         }
 
         .img-des .radius-1 {
@@ -578,12 +578,13 @@ body {
 
         .img-des-2 {
             display: flex;
-            align-items: center;
+            /* align-items: center; */
             gap: 0;
+
         }
 
-        .img-des-2 .radius-2 {
-            width: 20%;
+        .radius-2 {
+            width: 25%;
         }
 
         /* .paragraph {
