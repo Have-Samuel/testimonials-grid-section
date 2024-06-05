@@ -578,10 +578,7 @@ body {
 
         .img-des-2 {
             display: flex;
-            gap: 1rem;
-            margin: 0 0 -0.7rem 0;
             align-items: center;
-            padding-left: 1rem;
         }
 
         .img-des-2 .radius-2 {
