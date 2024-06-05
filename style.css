@@ -143,8 +143,8 @@ body {
 
 .identity-2 span {
     margin-top: 0.5rem;
-    font-size: 0.9rem;
-    font-weight: 400;
+    font-size: 0.7rem;
+    font-weight: 600;
     color: var(--very-dark-grayish-blue);
 }
 
@@ -190,8 +190,8 @@ body {
 
 .identity-3 span {
     margin-top: 0.5rem;
-    font-size: 0.8rem;
-    font-weight: 500;
+    font-size: 0.6rem;
+    font-weight: 300;
     color: var(--very-dark-grayish-blue);
 }
 
@@ -238,7 +238,7 @@ body {
 
 .identity-4 span {
     margin-top: 0.5rem;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 500;
     color: var(--very-dark-grayish-blue);
 }
@@ -287,8 +287,9 @@ body {
 
 .identity-5 span {
     margin-top: 0.5rem;
-    font-size: 0.8rem;
-    font-weight: 500;
+    font-size: 0.6rem;
+    font-weight: 300;
+    opacity: 0.7;
     color: var(--very-dark-grayish-blue);
 }
 
@@ -300,9 +301,11 @@ body {
 }
 
 .para-10 {
+    width: 286px;
     margin-top: 0.5rem;
-    font-size: 0.8rem;
-    font-weight: 500;
+    font-size: 0.9rem;
+    font-weight: 400;
+    opacity: 0.7;
     color: var(--very-dark-grayish-blue);
 }
 
