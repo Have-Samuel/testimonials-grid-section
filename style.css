@@ -76,8 +76,8 @@ body {
     margin: 0 0 0.4rem 0;
 }
 
-.img-des .radius-1 {
-    width: 15%;
+.radius-1 {
+    width: 17%;
     border-radius: 50%;
     border: 2px solid #9845b9;
 }
@@ -127,8 +127,8 @@ body {
     margin: 0 0 0.4rem 0;
 }
 
-.img-des-2 .radius-2 {
-    width: 15%;
+.radius-2 {
+    width: 17%;
     border-radius: 50%;
 }
 
@@ -175,7 +175,7 @@ body {
 }
 
 .radius-3 {
-    width: 15%;
+    width: 17%;
     border-radius: 50%;
 }
 
@@ -221,7 +221,7 @@ body {
 }
 
 .radius-4 {
-    width: 15%;
+    width: 17%;
     border-radius: 50%;
 }
 
@@ -269,7 +269,7 @@ body {
 }
 
 .radius-5 {
-    width: 10%;
+    width: 17%;
     border-radius: 50%;
 }
 
