@@ -106,17 +106,15 @@ body {
 }
 
 .para-2 {
-    width: 269px;
-    /* width: 247px; */
+    width: 266px;
     font-size: 1rem;
     font-weight: 300;
     color: var(--lihgt-grey);
-    padding-bottom: 2rem;
-    /* margin-bottom: 2rem; */
+    padding-top: 0.3rem;
+    margin-bottom: 1rem;
 }
 
 .card-2 {
-    /* background-color: var(--very-dark-blackish-blue); */
     background-color: var(rgb(39, 33, 33));
     background-color: rgb(34, 50, 73);
     padding: 1rem 1.5rem 1.5rem 1.5rem;
