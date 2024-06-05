@@ -309,8 +309,7 @@ body {
         display: flex;
         gap: 1rem;
         flex-direction: row;
-        margin-bottom: 2rem;
-        margin-left: 1rem;
+        margin: 0 2rem;
     }
 
     .card-1 {
@@ -319,19 +318,20 @@ body {
         background-position: 90% 0%;
         background-repeat: no-repeat;
         background-size: 18% 40%;
-        height: 304px;
         width: 668px;
+        padding: 0;
     }
 
     .radius-1 {
         width: 10%;
         border: 2px solid #e467c9;
+        margin-left: 0.4rem;
     }
 
     .img-des-1 {
         display: flex;
         gap: 0.4rem;
-        margin: 0 0 -0.7rem 1.1rem;
+        margin: 1rem 0 0.7rem 1rem;
     }
 
     .identity h2 {
@@ -346,20 +346,20 @@ body {
 
     .para-0 {
         width: 290px;
-        margin-top: 2rem;
+        margin-top: 1rem;
         font-size: 1.5rem;
         font-weight: 700;
     }
 
     .para-2 {
         width: 355px;
-        margin-top: 1.7rem;
+        margin-top: 0.5rem;
         padding-bottom: 2rem;
-        font-weight: 500;
+        font-size: 1rem;
+        font-weight: 300;
     }
 
     .card-2 {
-        height: 250px;
         width: 668px;
     }
 
@@ -378,20 +378,19 @@ body {
     }
 
     .para-3 {
-        width: 395px;
-        margin-top: 2rem;
+        width: 300px;
+        margin-top: 1rem;
         font-size: 1.5rem;
         font-weight: 700;
     }
 
     .para-4 {
         width: 390px;
-        font-size: 1.1rem;
-        margin-bottom: 2rem;
+        font-size: 1rem;
+        font-weight: 300;
     }
 
     .card-3 {
-        height: 250px;
         width: 668px;
     }
 
@@ -424,11 +423,11 @@ body {
     .para-6 {
         width: 390px;
         margin-top: 2rem;
-        font-size: 1.1rem;
+        font-size: 1rem;
+        font-weight: 300;
     }
 
     .card-4 {
-        height: 350px;
         width: 668px;
     }
 
@@ -460,12 +459,16 @@ body {
         width: 300px;
         margin-top: 2rem;
         font-size: 1rem;
-        font-weight: 700;
+        font-weight: 300;
     }
 
     .card-5 {
-        height: 350px;
         width: 668px;
+    }
+
+    .radius-5 {
+        width: 10%;
+        margin-left: 0.4rem;
     }
 
     .identity-5 h2 {
@@ -473,24 +476,23 @@ body {
     }
 
     .identity-5 span {
-        font-size: 1.2rem;
-        font-weight: 500;
+        font-size: 1rem;
+        font-weight: 300;
         color: var(--very-dark-grayish-blue);
     }
     
-
     .para-9 {
-        width: 269px;
+        width: 279px;
         font-size: 1.5rem;
-        margin-top: 2rem;
-        margin-left: 1.6rem;
+        margin-top: 4rem;
+        font-weight: 700;
     }
 
     .para-10 {
-        width: 369px;
-        font-size: 0.9rem;
-        margin-top: -0.5rem;
-        font-weight: 700;
+        width: 499px;
+        font-size: 1rem;
+        font-weight: 300;
+        /* margin-bottom: 2rem; */
     }
 
     /* Media Queries 2 */
