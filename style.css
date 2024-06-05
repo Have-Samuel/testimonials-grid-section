@@ -389,7 +389,7 @@ body {
     .img-des-2 {
         display: flex;
         gap: 1rem;
-        margin: 0 0 -0.7rem 1.1rem;
+        /* margin: 0 0 -0.7rem 1.1rem; */
         /* align-items: center; */
     }
 
@@ -405,7 +405,7 @@ body {
 
     .para-4 {
         width: 295px;
-        margin-top: 1rem;
+        /* margin-top: 1rem; */
         font-size: 1.3rem;
         margin-bottom: 2rem;
     }
@@ -425,17 +425,25 @@ body {
         color: var(--very-dark-grayish-blue);
     }
 
+    .img-des-3 {
+        display: flex
+    }
+
+    .radius-3 {
+        width: 10%;
+    }
+
     .para-5 {
         width: 289px;
-        margin-top: 1rem;
+        margin-top: 2rem;
         font-size: 1.5rem;
+        margin-right: 2rem;
     }
 
     .para-6 {
         width: 270px;
-        margin-top: -1rem;
+        margin-top: 2rem;
         font-size: 1.2rem;
-        margin-bottom: 2rem;
     }
 
     .card-4 {
