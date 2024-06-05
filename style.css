@@ -307,16 +307,10 @@ body {
     
     .paragraph {
         display: flex;
-        /* justify-content: space-around; */
+        gap: 1rem;
         flex-direction: row;
         margin-bottom: 2rem;
-    }
-
-    .img-des {
-        display: flex;
-        gap: 0.4rem;
-        margin: 0 0 -0.7rem 1.1rem;
-        /* align-items: center; */
+        margin-left: 1rem;
     }
 
     .card-1 {
@@ -324,7 +318,7 @@ body {
         flex-direction: column;
         background-position: 90% 0%;
         background-repeat: no-repeat;
-        background-size: 25% 42%;
+        background-size: 18% 40%;
         height: 304px;
         width: 668px;
     }
@@ -336,7 +330,8 @@ body {
 
     .img-des-1 {
         display: flex;
-        gap: 1rem;
+        gap: 0.4rem;
+        margin: 0 0 -0.7rem 1.1rem;
     }
 
     .identity h2 {
@@ -344,20 +339,20 @@ body {
     }
 
     .identity span {
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 400;
         color: var(--light-grayish-blue);
     }
 
     .para-0 {
-        width: 264px;
-        margin-top: 1.5rem;
+        width: 290px;
+        margin-top: 2rem;
         font-size: 1.5rem;
         font-weight: 700;
     }
 
     .para-2 {
-        width: 329px;
+        width: 355px;
         margin-top: 1.7rem;
         padding-bottom: 2rem;
         font-weight: 500;
