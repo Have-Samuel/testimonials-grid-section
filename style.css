@@ -422,9 +422,9 @@ body {
     }
 
     .para-6 {
-        width: 270px;
+        width: 390px;
         margin-top: 2rem;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .card-4 {
@@ -432,31 +432,34 @@ body {
         width: 668px;
     }
 
-    .img-des-4 {
-    
-    }
   
-
+    .radius-4 {
+        width: 10%;
+        margin-left: 0.4rem;
+    }
+   
     .identity-4 h2 {
         font-size: 1.5rem;
     }
 
     .identity-4 span {
-        font-size: 1.2rem;
-        font-weight: 500;
+        font-size: 1rem;
+        font-weight: 300;
         color: var(--very-dark-grayish-blue);
     }
 
     .para-7 {
-        width: 269px;
-        margin-top: 1.5rem;
+        width: 300px;
+        margin-top: 2rem;
         font-size: 1.5rem;
+        font-weight: 700;
+        margin-left: -0.4rem;
     }
 
     .para-8 {
-        width: 270px;
-        margin-top: -1rem;
-        font-size: 1.1rem;
+        width: 300px;
+        margin-top: 2rem;
+        font-size: 1rem;
         font-weight: 700;
     }
 
