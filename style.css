@@ -393,16 +393,20 @@ body {
         /* align-items: center; */
     }
 
+    .radius-2 {
+        width: 10%;
+    }
+
     .para-3 {
         width: 289px;
-        margin-top: 2rem;
+        margin-top: 3rem;
         font-size: 1.5rem;
     }
 
     .para-4 {
-        width: 270px;
-        margin-top: -1rem;
-        font-size: 1.2rem;
+        width: 295px;
+        margin-top: 1rem;
+        font-size: 1.3rem;
         margin-bottom: 2rem;
     }
 
