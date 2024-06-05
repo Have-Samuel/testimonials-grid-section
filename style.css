@@ -106,10 +106,10 @@ body {
 
 .para-2 {
     width: 269px;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 300;
     color: var(--lihgt-grey);
-    margin-top: 2rem;
+    margin-bottom: -2rem;
 }
 
 .card-2 {
@@ -502,7 +502,7 @@ body {
             width: 540px;
             position: absolute;
             top: 10rem;
-            left: 10rem;
+            left: 1rem;
             border: 5px solid red;
             padding: 1rem 1.5rem 1.5rem 1.5rem;
         }
@@ -539,16 +539,15 @@ body {
         .para-0 {
             width: 476px;
             font-size: 1.2rem;
-            /* margin-left: 1.2rem; */
+            margin-left: 1.2rem;
             font-weight: 700;
             margin-top: 1rem;
         }
 
-        .para-2 {
+        .card-1 .paragraph .para-2 {
             align-items: center;
-            width: 508px;
-            width: 520px;
-            /* padding: 0; */
+            width: 476px;
+            padding: 0;
             font-weight: 400;
             margin: 0.2rem 1rem 1rem 0;
         }
