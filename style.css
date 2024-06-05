@@ -378,8 +378,8 @@ body {
     }
 
     .para-3 {
-        width: 300px;
-        margin-top: 1rem;
+        width: 470px;
+        margin-top: 1.5rem;
         font-size: 1.5rem;
         font-weight: 700;
     }
@@ -414,7 +414,7 @@ body {
 
     .para-5 {
         width: 345px;
-        margin-top: 2rem;
+        margin-top: 1rem;
         font-size: 1.5rem;
         font-weight: 700;
         margin-left: -0.4rem;
@@ -422,9 +422,10 @@ body {
 
     .para-6 {
         width: 390px;
-        margin-top: 2rem;
+        margin-top: 1rem;
         font-size: 1rem;
         font-weight: 300;
+        margin-bottom: 1rem;
     }
 
     .card-4 {
@@ -449,7 +450,7 @@ body {
 
     .para-7 {
         width: 300px;
-        margin-top: 2rem;
+        margin-top: 1rem;
         font-size: 1.5rem;
         font-weight: 700;
         margin-left: -0.4rem;
@@ -457,7 +458,8 @@ body {
 
     .para-8 {
         width: 300px;
-        margin-top: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
         font-size: 1rem;
         font-weight: 300;
     }
@@ -480,11 +482,15 @@ body {
         font-weight: 300;
         color: var(--very-dark-grayish-blue);
     }
+
+    .card-5 .paragraph {
+        margin: 0 0 0 1rem;
+    }
     
     .para-9 {
-        width: 279px;
+        width: 389px;
         font-size: 1.5rem;
-        margin-top: 4rem;
+        margin-top: 6rem;
         font-weight: 700;
     }
 
