@@ -557,9 +557,8 @@ body {
         .para-0 {
             width: 476px;
             font-size: 1.2rem;
-            /* margin-left: 1.2rem; */
             font-weight: 700;
-            margin-top: 1rem;
+            /* margin-top: 1rem; */
         }
 
         .para-2 {
@@ -575,7 +574,7 @@ body {
             width: 255px;
             position: absolute;
             top: 10rem;
-            right: 35rem;
+            right: 27rem;
             border: 5px solid yellow;
             padding: 1rem 1.5rem 1.5rem 0;
 
