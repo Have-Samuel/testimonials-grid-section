@@ -534,6 +534,7 @@ body {
             display: flex;
             flex-direction: column;
             margin: 0;
+            gap: 0;
         }
 
         .img-des-1 {
