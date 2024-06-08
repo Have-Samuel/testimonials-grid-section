@@ -613,15 +613,15 @@ body {
             width: 224px;
             font-size: 1.5rem;
             padding: 0.5rem 0rem 0 1.3rem;
-            overflow-x: auto;
-            margin-top: 0;
+            margin: 0.5rem auto;
         }
 
         .para-4 {
-            width: 270px;
-            margin-top: -1rem;
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
+            width: 191px;
+            font-size: 0.9rem;
+            font-weight: 300;
+            align-items: center;
+            margin: 0.5rem auto;
         }
 
         /* .card-3 {
