@@ -564,7 +564,6 @@ body {
             width: 476px;
             font-size: 1.2rem;
             font-weight: 700;
-            /* margin-top: 1rem; */
         }
 
         .para-2 {
@@ -717,8 +716,9 @@ body {
         .para-6 {
             width: 199px;
             font-size: 0.9rem;
-            margin-top: -0.5rem;
-            font-weight: 700;
+            margin-top: 0.5rem;
+            font-weight: 300;
+            line-height: 18px;
         }
 
         /*.card-4 {
