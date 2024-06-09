@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - [Github](https://github.com/Have-Samuel/testimonials-grid-section)
-- [Live Link]()
+- [Live Link](https://have-samuel.github.io/testimonials-grid-section/)
 
 ## My process
 
@@ -79,5 +79,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
-
