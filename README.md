@@ -24,19 +24,19 @@ Users should be able to:
 
 ## Mobile
 
-![](./screenshot.jpg)
+![](./design/mobile-design.jpg)
 
 ## Tablet
 
-![](./screenshot.jpg)
+![](./design/Screenshot%20from%202024-06-09%2011-05-30.png)
 
 ## Desktop
 
-![](./screenshot.jpg)
+![](./design/desktop-preview.jpg)
 
 ### Links
 
-- [Github]()
+- [Github](https://github.com/Have-Samuel/testimonials-grid-section)
 - [Live Link]()
 
 ## My process
@@ -56,15 +56,15 @@ Users should be able to:
 
 **Have Samuel**
 
-- Website - [Have Samuel]()
-- Frontend Mentor - [@Have-Samuel]()
-- Twitter - [@samhave1]()
+- Website - [Have Samuel](https://my-portifolio-git-dev-have-samuel.vercel.app/)
+- Frontend Mentor - [@Have-Samuel](https://www.frontendmentor.io/profile/Have-Samuel)
+- Twitter - [@samhave1](https://x.com/samhave1)
 
 ## 🤝 Contributions
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/Have-Samuel/testimonials-grid-section/issues).
 
 ## Show your support
 
