@@ -623,7 +623,7 @@ body {
             margin-top: 0.8rem;
         }
 
-        /* .card-3 {
+        .card-4{
             height: 572px;
             width: 255px;
             position: absolute;
@@ -632,30 +632,37 @@ body {
             border: 5px solid violet;
         }
 
-        .identity-3 h2 {
+        .img-des-4 {
+            display: flex;
+            align-items: center;
+            gap: 0;
+            margin: 0 0 0 0.5rem;
+        }
+
+       .identity-4 h2 {
             font-size: 1.5rem;
         }
 
-        .identity-3 span {
+        .identity-4 span {
             font-size: 1.2rem;
             font-weight: 500;
             color: var(--very-dark-grayish-blue);
         }
         
-        .para-5 {
+        .para-7 {
             width: 289px;
             margin-top: 1rem;
             font-size: 1.5rem;
         }
 
-        .para-6 {
+        .para-8 {
             width: 270px;
             margin-top: -1rem;
             font-size: 1.2rem;
             margin-bottom: 2rem;
         }
 
-        .card-4 {
+         /* .card-4 {
             height: 266px;
             width: 655px;
             position: absolute;
@@ -674,13 +681,13 @@ body {
             color: var(--very-dark-grayish-blue);
         }
 
-        .para-7 {
+        .para-5 {
             width: 269px;
             margin-top: 1.5rem;
             font-size: 1.5rem;
         }
 
-        .para-8 {
+        .para-6 {
             width: 270px;
             margin-top: -1rem;
             font-size: 1.1rem;
