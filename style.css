@@ -21,6 +21,14 @@
     padding: 0;
 }
 
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     color: var(--very-dark-grayish-blue);
@@ -498,7 +506,6 @@ body {
         width: 499px;
         font-size: 1rem;
         font-weight: 300;
-        /* margin-bottom: 2rem; */
     }
 
     /* Media Queries 2 */
@@ -512,9 +519,10 @@ body {
         .container {
             display: flex;
             width: 1400px;
-            margin: 0 auto;
+            height: 900px;
+            margin: 4rem auto 2rem auto;
             position: relative;
-            border: 1px solid red;
+            border-radius: 4px;
         }
         
         .card-1 {
@@ -526,7 +534,6 @@ body {
             position: absolute;
             top: 10rem;
             left: 10rem;
-            border: 5px solid red;
             padding: 1rem 1.5rem 1.5rem 1.5rem;
         }
 
@@ -555,21 +562,23 @@ body {
 
         .identity span {
             font-size: 0.8rem;
+            opacity: 0.7;
         }
 
         .para-0 {
             width: 476px;
             font-size: 1.2rem;
-            font-weight: 700;
-            /* margin-top: 1rem; */
+            font-weight: 600;
+            margin-top: 1.5rem;
         }
 
         .para-2 {
             align-items: center;
             width: 476px;
             padding: 0;
-            font-weight: 400;
-            margin: 0.2rem 1rem 1rem 0;
+            font-weight: 200;
+            margin: 0.9rem 1rem 1rem 0;
+            font-size: 0.86rem;
         }
 
         .card-2 {
@@ -578,7 +587,6 @@ body {
             position: absolute;
             top: 10rem;
             right: 27rem;
-            border: 5px solid yellow;
             padding: 1rem;
 
         }
@@ -608,117 +616,160 @@ body {
 
         .para-3 {
             font-weight: 600;
-            font-size: 1.2rem !important;
             width: 224px;
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             margin: 1rem 0 0 0.5rem;
         }
 
         .para-4 {
             width: 191px;
-            font-size: 0.90rem;
-            font-weight: 200;
+            font-weight: 300;
             align-items: center;
             margin-left: 0.5rem;
             margin-top: 0.8rem;
+            font-size: 0.86rem;
         }
 
-        /* .card-3 {
-            height: 572px;
+        .card-5 {
+            height: 562px;
             width: 255px;
             position: absolute;
             top: 10rem;
             right: 10rem;
-            border: 5px solid violet;
         }
 
-        .identity-3 h2 {
-            font-size: 1.5rem;
+        .img-des-5 {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            margin: 0;
         }
 
-        .identity-3 span {
-            font-size: 1.2rem;
+        .radius-5 {
+            width: 20%;
+            margin-left: 0;
+        }
+
+       .identity-5 h2 {
+            font-size: 1rem;
+        }
+
+        .identity-5 span {
+            font-size: 0.8rem;
             font-weight: 500;
             color: var(--very-dark-grayish-blue);
         }
         
-        .para-5 {
-            width: 289px;
+        .para-9 {
+            width: 191px;
             margin-top: 1rem;
-            font-size: 1.5rem;
+            font-size: 1.2rem;
+            margin-left: -0.9rem;
+            letter-spacing: 0;
+            font-weight: 600;
+        }
+
+        .para-10 {
+            width: 195px;
+            margin-top: -1rem;
+            font-size: 0.9rem;
+            margin-top: 0.6rem;
+            margin-left: -0.8rem;
+            line-height: 17px;
+            font-weight: 300;
+            font-size: 0.86rem;
+        }
+
+         
+        .card-3 {
+            height: 266px;
+            width: 255px;
+            position: absolute;
+            top: 28.5rem;
+            left: 10rem;
+        }
+
+        .img-des-3 {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            margin: 0;
+        }
+
+        .radius-3 {
+            width: 20%;
+            margin-left: 0;
+        }
+
+        .identity-3 h2 {
+            font-size: 1rem;
+        }
+
+        .identity-3 span {
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: var(--very-dark-grayish-blue);
+            opacity: 0.7;
+        }
+
+        .para-5 {
+            width: 191px;
+            font-size: 1.2rem;
+            margin-left: 0;
         }
 
         .para-6 {
-            width: 270px;
-            margin-top: -1rem;
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
+            width: 199px;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+            font-weight: 300;
+            line-height: 18px;
         }
 
         .card-4 {
             height: 266px;
-            width: 655px;
+            width: 540px;
             position: absolute;
-            top: 20rem;
-            left: 30rem;
-            border: 5px solid magenta;
+            top: 28.5rem;
+            left: 27rem;
+        }
+
+        .img-des-4 {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            margin: 0;
+        }
+
+        .radius-4 {
+            width: 10%;
+            margin-left: 0;
         }
 
         .identity-4 h2 {
-            font-size: 1.5rem;
+            font-size: 1rem;
         }
 
         .identity-4 span {
-            font-size: 1.2rem;
+            font-size: 0.8rem;
             font-weight: 500;
             color: var(--very-dark-grayish-blue);
         }
 
         .para-7 {
-            width: 269px;
-            margin-top: 1.5rem;
-            font-size: 1.5rem;
+            width: 476px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-left: 0.2rem;
         }
 
         .para-8 {
-            width: 270px;
-            margin-top: -1rem;
+            width: 476px;
+            margin-top: 1rem;
             font-size: 1.1rem;
-            font-weight: 700;
+            font-weight: 300;
+            font-size: 0.86rem;
         }
-
-        .card-5 {
-            height: 266px;
-            width: 255px;
-            position: absolute;
-            top: 30rem;
-            left: 10rem;
-            border: 5px solid maroon;
-        }
-
-        .identity-5 h2 {
-            font-size: 1.5rem;
-        }
-
-        .identity-5 span {
-            font-size: 1.2rem;
-            font-weight: 500;
-            color: var(--very-dark-grayish-blue);
-        }
-
-        .para-9 {
-            width: 269px;
-            font-size: 1.5rem;
-            margin-top: 2rem;
-            margin-left: 1.6rem;
-        }
-
-        .para-10 {
-            width: 369px;
-            font-size: 0.9rem;
-            margin-top: -0.5rem;
-            font-weight: 700;
-        } */
     }
 }
 
