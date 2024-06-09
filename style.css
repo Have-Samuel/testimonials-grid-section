@@ -758,13 +758,15 @@ body {
             width: 476px;
             font-size: 1.2rem;
             font-weight: 600;
+            margin-left: 0.2rem;
         }
 
         .para-8 {
-            width: 270px;
-            margin-top: -1rem;
+            width: 476px;
+            margin-top: 1rem;
             font-size: 1.1rem;
-            font-weight: 700;
+            font-weight: 300;
+            font-size: 0.86rem;
         }
     }
 }
