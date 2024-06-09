@@ -579,7 +579,7 @@ body {
             top: 10rem;
             right: 27rem;
             border: 5px solid yellow;
-            padding: 1rem 1.5rem 1.5rem 0;
+            padding: 1rem;
 
         }
 
@@ -598,30 +598,29 @@ body {
         .img-des-2 {
             display: flex;
             align-items: center;
-            justify-content: center;
             gap: 0;
-            margin: 0;
+            margin: 0 0 0 0.5rem;
         }
 
         .radius-2 {
-            width: 25%;
+            width: 20%;
         }
 
         .para-3 {
             font-weight: 600;
-            font-size: 1.3em !important;
+            font-size: 1.2rem !important;
             width: 224px;
             font-size: 1.5rem;
-            padding: 0.5rem 0rem 0 1.3rem;
-            margin: 0.5rem auto;
+            margin: 1rem 0 0 0.5rem;
         }
 
         .para-4 {
             width: 191px;
-            font-size: 0.9rem;
-            font-weight: 300;
+            font-size: 0.90rem;
+            font-weight: 200;
             align-items: center;
-            margin: 0.5rem auto;
+            margin-left: 0.5rem;
+            margin-top: 0.8rem;
         }
 
         /* .card-3 {
