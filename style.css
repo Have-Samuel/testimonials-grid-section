@@ -21,6 +21,14 @@
     padding: 0;
 }
 
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     color: var(--very-dark-grayish-blue);
@@ -514,7 +522,6 @@ body {
             height: 900px;
             margin: 0.3rem auto 0 auto;
             position: relative;
-            border: 1px solid red;
             border-radius: 4px;
         }
         
@@ -527,7 +534,6 @@ body {
             position: absolute;
             top: 10rem;
             left: 10rem;
-            border: 5px solid red;
             padding: 1rem 1.5rem 1.5rem 1.5rem;
         }
 
@@ -581,7 +587,6 @@ body {
             position: absolute;
             top: 10rem;
             right: 27rem;
-            border: 5px solid yellow;
             padding: 1rem;
 
         }
@@ -631,7 +636,6 @@ body {
             position: absolute;
             top: 10rem;
             right: 10rem;
-            border: 5px solid violet;
         }
 
         .img-des-5 {
@@ -683,7 +687,6 @@ body {
             position: absolute;
             top: 28.5rem;
             left: 10rem;
-            border: 5px solid maroon;
         }
 
         .img-des-3 {
@@ -729,7 +732,6 @@ body {
             position: absolute;
             top: 28.5rem;
             left: 27rem;
-            border: 5px solid magenta;
         }
 
         .img-des-4 {
