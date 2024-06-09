@@ -520,7 +520,7 @@ body {
             display: flex;
             width: 1400px;
             height: 900px;
-            margin: 0.3rem auto 0 auto;
+            margin: 4rem auto 2rem auto;
             position: relative;
             border-radius: 4px;
         }
