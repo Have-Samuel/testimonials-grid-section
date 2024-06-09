@@ -623,7 +623,7 @@ body {
             margin-top: 0.8rem;
         }
 
-        .card-4{
+        .card-5 {
             height: 572px;
             width: 255px;
             position: absolute;
@@ -632,30 +632,36 @@ body {
             border: 5px solid violet;
         }
 
-        .img-des-4 {
+        .img-des-5 {
             display: flex;
             align-items: center;
-            gap: 0;
-            margin: 0 0 0 0.5rem;
+            /* justify-content: space-between; */
+            gap: 0.8rem;
+            margin: 0;
         }
 
-       .identity-4 h2 {
-            font-size: 1.5rem;
+        .radius-5 {
+            width: 20%;
+            margin-left: 0;
         }
 
-        .identity-4 span {
-            font-size: 1.2rem;
+       .identity-5 h2 {
+            font-size: 1rem;
+        }
+
+        .identity-5 span {
+            font-size: 0.8rem;
             font-weight: 500;
             color: var(--very-dark-grayish-blue);
         }
         
-        .para-7 {
+        .para-9 {
             width: 289px;
             margin-top: 1rem;
             font-size: 1.5rem;
         }
 
-        .para-8 {
+        .para-10 {
             width: 270px;
             margin-top: -1rem;
             font-size: 1.2rem;
