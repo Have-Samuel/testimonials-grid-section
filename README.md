@@ -54,7 +54,7 @@ Users should be able to:
 
 ## Author
 
-**Have Samuel**
+*Have Samuel
 
 - Website - [Have Samuel](https://my-portifolio-git-dev-have-samuel.vercel.app/)
 - Frontend Mentor - [@Have-Samuel](https://www.frontendmentor.io/profile/Have-Samuel)
